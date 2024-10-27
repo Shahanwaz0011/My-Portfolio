@@ -14,11 +14,12 @@ function Home() {
                 <div className="hero">
                     <div className='round'>
                         <div className="profile-picture">
-                            <img src={Picture1} alt="Profile of Shaktidhar" />
+                            <img src={Picture1} alt="Profile of Shahanwaz" />
                         </div>
                         
                         <div className="title">
-                            <h1>Shaktidhar</h1>
+                            <h1>Shahanwaz</h1>
+                            <h2>here...</h2>
                         </div>
 
                         <button className='hero-btn' onClick={() => window.scrollBy({top: 200, behavior: 'smooth'})}>

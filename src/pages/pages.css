@@ -1,251 +1,261 @@
 /* Container for all pages */
 .pages {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .hero {
-    width: 100%;
-    height: 100vh;
-    border-radius: 20px;
-    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .project-section {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
-    width: 100%;
-    margin-top: 2em;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  width: 100%;
+  margin-top: 2em;
+  justify-items: center;
 }
 
 .round {
-    margin-top: 10em;
-    width: 100%;
-    height: 200%;
-    background: radial-gradient(circle, #3C3D37, #181C14 70%);
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 10em;
+  width: 100%;
+  height: 200%;
+  background: radial-gradient(circle, #3c3d37, #181c14 70%);
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: -4em;
+  margin-left: -30em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title h1 {
-    margin-top: 0;
-    font-family: "Smooch";
-    font-size: 10em;
-    color: white;
+  margin-top: 0;
+  font-family: "Smooch";
+  font-size: 10em;
+  color: white;
 }
 
 .round button {
-    padding: .2em .7em;
-    font-size: 2.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    background-color: #697565;
-    cursor: pointer;
+  padding: 0.2em 0.7em;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: #697565;
+  cursor: pointer;
 }
 
 .project-card {
-    width: 100%;
-    max-width: 300px;
-    overflow: hidden;
-    border-radius: 0.5em;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 0.5em;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
 }
 
 .project-card .item {
-    border-radius: 0.5em;
-    height: 40vh;
-    background-color: #ECDFCC;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: white;
-    position: relative;
-    transition: transform 0.3s ease-in-out;
+  border-radius: 0.5em;
+  height: 40vh;
+  background-color: #ecdfcc;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
 }
 
 .profile-picture {
-    display: none;
-    margin-top: -8em;
-    width: 100%;
-    height: 25em;
-    background: #000;
-    border-radius: 0.5em;
+  margin-top: -4em;
+  margin-left: 90em;
+  width: 100%;
+  height: 30em;
+  border-radius: 0.5em;
+}
+.profile-picture img {
+  width: 30%;
+  border-radius: 0.5em;
 }
 
 .item-desc {
-    margin: 0 0 0 -1em;
-    padding: 0.5em;
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30%;
+  margin: 0 0 0 -1em;
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
 }
 
 .item-desc h3 {
-    margin: 0;
-    font-size: 1.3em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  margin: 0;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .item-desc p {
-    margin-top: 0.5em;
-    font-size: .8em;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  margin-top: 0.5em;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .project-card:hover {
-    transform: scale(1.05);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px;
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px;
 }
 
 .skills-container {
-    padding: 2em;
+  padding: 2em;
 }
 
 .skills-category {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
 }
 
 .skill-card {
-    background-color: #697565;
-    padding: 1em;
-    width: 150px;
-    border-radius: 0.5em;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    text-align: center;
-    transition: transform 0.2s;
+  background-color: #697565;
+  padding: 1em;
+  width: 150px;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  transition: transform 0.2s;
 }
 
 .skill-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .skill-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
 }
 
 .skill-icon {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }
 
 .progress-bar {
-    background-color: #e0e0e0;
-    border-radius: 0.5em;
-    height: 10px;
-    overflow: hidden;
-    margin-bottom: 0.5em;
+  background-color: #e0e0e0;
+  border-radius: 0.5em;
+  height: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5em;
 }
 
 .progress {
-    background-color: #4caf50;
-    height: 100%;
-    border-radius: 0.5em;
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 0.5em;
 }
 
 .skill-level {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .form-placeholder {
-    padding: 5em;
-    background-color: #3C3D37;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.5em;
-    justify-content: center;
-    align-items: center;
+  padding: 5em;
+  background-color: #3c3d37;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    margin-top: 2em;
-    border-radius: 18px;
-    padding: 1em 5em;
-    border: none;
-    font-size: 1em;
+  margin-top: 2em;
+  border-radius: 18px;
+  padding: 1em 5em;
+  border: none;
+  font-size: 1em;
 }
 
 @media (max-width: 1024px) {
-    .project-section {}
+  .project-section {
+  }
 }
 
 @media (max-width: 768px) {
-    .hero {
-        height: 90vh;
-    }
+  .hero {
+    height: 90vh;
+  }
 
-    .title {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .title {
+    margin-top: 0em;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .title h1 {
-        margin-top: -.5em;
-        font-family: "Smooch";
-        font-size: 4em;
-        color: white;
-    }
+  .title h1 {
+    margin-top: -0.5em;
+    font-family: "Smooch";
+    font-size: 4em;
+    color: white;
+  }
 
-    .hero-btn {
-        margin-top: -0.1em;
-    }
+  .hero-btn {
+    margin-top: -0.1em;
+  }
 
-    .project-section {
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
+  .project-section {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 
-    .skill-card {
-        width: 35%;
-    }
+  .skill-card {
+    width: 35%;
+  }
 
-    .project-card {
-        min-width: 100%;
-    }
+  .project-card {
+    min-width: 100%;
+  }
 
-    .profile-picture {
-        display: flex;
-        overflow: hidden;
-        margin-top: -4em;
-    }
+  .profile-picture {
+    margin-top: 0em;
+    margin-left: 0em;
+    display: flex;
+    overflow: hidden;
+    margin-top: -4em;
+  }
 
-    .profile-picture img {
-        display: flex;
-        width: 100%;
-        object-fit: cover;
-    }
+  .profile-picture img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+  }
 }

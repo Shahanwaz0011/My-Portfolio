@@ -18,11 +18,11 @@ function Hero() {
                     <div className='round'>
 
                         <div className="profile-picture">
-                            <img src={Picture1} alt="Profile of Shaktidhar" /> {/* Displaying the profile picture */}
+                            <img src={Picture1} alt="Profile of Shahanwaz" /> {/* Displaying the profile picture */}
                         </div>
 
                         <div className="title">
-                            <h1>Shaktidhar</h1>
+                            <h1>Shahanwaz</h1>
                         </div>
 
                         <button className='hero-btn' onClick={scrollDown}> {/* Updated click handler */}

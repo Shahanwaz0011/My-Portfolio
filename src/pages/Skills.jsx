@@ -4,10 +4,10 @@ import React from 'react';
 import './pages.css'; // Include your CSS
 import {
     FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs,
-    FaJava, FaAws, FaWordpress
+    FaJava, FaAws, FaWordpress ,
 } from 'react-icons/fa';
 import {
-    SiMongodb, SiVisualstudiocode, SiCanva, SiMicrosoftexcel
+    SiMongodb, SiVisualstudiocode, SiCanva, SiMicrosoftexcel ,SiSolidity, SiWeb3Dotjs
 } from 'react-icons/si';
 
 const skillCategories = {
@@ -24,6 +24,8 @@ const skillCategories = {
         { name: 'React', icon: <FaReact size={40} color="#61DBFB" />, level: 90 },
         { name: 'MongoDB', icon: <SiMongodb size={40} color="#4DB33D" />, level: 70 },
         { name: 'AWS', icon: <FaAws size={40} color="#FF9900" />, level: 65 },
+        { name: 'Solidity', icon: <SiSolidity size={40} color="#83CD29" />, level: 80 },
+        { name: 'Web3JS', icon: <SiWeb3Dotjs size={40} color="#83CD29" />, level: 80 },
     ],
     "Tools": [
         { name: 'VS Code', icon: <SiVisualstudiocode size={40} color="#007ACC" />, level: 90 },

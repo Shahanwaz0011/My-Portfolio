@@ -28,7 +28,7 @@ function Navbar() {
 
     return (
         <nav>
-            <div className="nav-logo">Shakti</div>
+            <div className="nav-logo">Sameer</div>
             <div className="menus" onClick={toggleMenu}>
                 <IoIosMenu />
             </div>

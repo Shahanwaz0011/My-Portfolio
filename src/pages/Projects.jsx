@@ -29,8 +29,8 @@ const projects = [
     },
     {
         id: 4,
-        name: 'Web3 Blockchain Platform',
-        description: 'A decentralized application built on blockchain technology.',
+        name: 'DiamPoll',
+        description: 'A decentralized Voting Web3 Blockchain application built on blockchain technology using Diamante.',
         image: Web3,
     },
 ];
